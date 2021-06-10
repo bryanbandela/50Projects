@@ -1,0 +1,18 @@
+Tools
+
+1. VS Code: Live Server (to automatically render the page), Auto Rename Tag, Bracket Pair Colorizer, Prettier
+2. cdnjs.com : Quick way to get your awesome font cdn and copy in html
+3. Google Font: use the import method
+
+I. Day 1: Expanding Cards
+
+1. How to center your content
+
+body {
+  display: flex;
+  flex-direction: column; //Align items Vertically (top to bottom)
+  align-items: center; //Align items in the middle (left to right: horizontaly since the direction is column)
+  justify-content: center; //Align items in the middle (top to bottom: verticaly)
+  height: 100vh; //Without the height , you will not see the effect of justify-content
+}
+
