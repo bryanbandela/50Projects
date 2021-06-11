@@ -7,7 +7,7 @@ Tools
 I. Day 1: Expanding Cards
 
 1. How to center your content
-
+- CSS
 body {
   display: flex;
   flex-direction: column; //Align items Vertically (top to bottom)
@@ -15,4 +15,16 @@ body {
   justify-content: center; //Align items in the middle (top to bottom: verticaly)
   height: 100vh; //Without the height , you will not see the effect of justify-content
 }
+-JS:
+A node (querySelector) is different from an element(getElementBy)
 
+II. Progress steps
+- CSS:
+transform: scale(0.98) a number lower than 1 will scale down & above will scale up
+justify-content: space-between this will use the remaining space of the width and split it between element
+
+-JS:
+Grab all the element will work with (DOM)
+If there's one element to grab => getElementBy..
+If there's many elements to grab & use them as a group of node/Array => querySelectorAll
+querySelector needs the type (".circle") but getElementById doesnt need ("circle")
