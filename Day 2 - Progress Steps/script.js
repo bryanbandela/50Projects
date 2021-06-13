@@ -48,3 +48,5 @@ function update() {
     next.disabled = false;
   }
 }
+
+//Fix the problem when you click prev after reaching the last circle

@@ -28,3 +28,12 @@ Grab all the element will work with (DOM)
 If there's one element to grab => getElementBy..
 If there's many elements to grab & use them as a group of node/Array => querySelectorAll
 querySelector needs the type (".circle") but getElementById doesnt need ("circle")
+
+III. Rotating Navigation
+
+- CSS:
+overflow-x: hidden; it only hides the scroll bar on the x-axis but we can still scroll thru Vertically
+Transform-origin (the point around which the object rotates) is by default in the middle
+-img {
+  max-width: 100%; maximum of its container. This will prevent the pic to go beyond its container in small screen
+}
