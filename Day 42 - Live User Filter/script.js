@@ -18,6 +18,9 @@ async function getData() {
     const li = document.createElement('li');
 
     listItems.push(li);
+    console.log(li);
+
+    console.log(listItems);
 
     li.innerHTML = `
             <img src="${user.picture.large}" alt="${user.name.first}">

@@ -37,3 +37,10 @@ Transform-origin (the point around which the object rotates) is by default in th
 -img {
   max-width: 100%; maximum of its container. This will prevent the pic to go beyond its container in small screen
 }
+
+IV. addEventListener
+
+when search items with API we have two options :
+use the "submit" event then use the entered value as a parameter in a function that list the items with the name to render items
+
+or use the "input" event then use the entered value to see if there are items that include the entered value
