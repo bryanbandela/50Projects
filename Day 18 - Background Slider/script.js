@@ -8,19 +8,21 @@ let activeDiv = 0;
 setBgToBody();
 
 rightBtn.addEventListener('click', () => {
+  activeDiv++;
   if (activeDiv > slides.length - 1) {
     activeDiv = 0;
   }
-  activeDiv++;
+
   setBgToBody();
   changeImage();
 });
 
 leftBtn.addEventListener('click', () => {
+  activeDiv--;
   if (activeDiv < 0) {
     activeDiv = slides.length - 1;
   }
-  activeDiv--;
+
   setBgToBody();
   changeImage();
 });
