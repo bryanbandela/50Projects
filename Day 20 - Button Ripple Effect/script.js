@@ -16,7 +16,7 @@ buttons.forEach((button) => {
     circle.style.top = yInside + 'px';
     circle.style.left = xInside + 'px';
 
-    this.appendChild(circle);
+    this.appendChild(circle); //Arrow function won't work with this
 
     setTimeout(() => circle.remove(), 500);
   });
