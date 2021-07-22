@@ -44,3 +44,5 @@ when search items with API we have two options :
 use the "submit" event then use the entered value as a parameter in a function that list the items with the name to render items
 
 or use the "input" event then use the entered value to see if there are items that include the entered value
+
+V. &nbsp; => non breaking space
