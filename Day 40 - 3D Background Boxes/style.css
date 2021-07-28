@@ -53,6 +53,7 @@ body {
   width: 125px;
   background-repeat: no-repeat;
   position: relative;
+  z-index: 2;
 }
 
 .box::after {
@@ -64,6 +65,7 @@ body {
   height: 100%;
   width: 15px;
   transform: skewY(45deg);
+  z-index: -1;
 }
 
 .box::before {
@@ -75,4 +77,5 @@ body {
   height: 15px;
   width: 100%;
   transform: skewX(45deg);
+  z-index: -1;
 }
